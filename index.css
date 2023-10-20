@@ -41,6 +41,7 @@ h1{
 }
 
 .list-app{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
   min-height: 40vh;
   gap: 7px;
   padding-bottom: 50px;
@@ -185,7 +186,7 @@ ul li span:hover{
 
 @media (max-width: 1000px){
   body{
-      overflow-x: hidden;
+      overflow: hidden;
   }
 
   h1{
@@ -194,7 +195,7 @@ ul li span:hover{
 
   .list-app{
       width: 85%;
-      min-height: 40vh;
+      min-height: 50vh;
   }
 
   .row, #Enter{
