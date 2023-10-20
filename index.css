@@ -191,11 +191,12 @@ ul li span:hover{
   }
 
   .row button{
-    height: 3rem;
+    height: 4rem;
   }
 
   button{
     width: 4rem;
+    font: size 3rem;
   }
   
   span{
