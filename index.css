@@ -22,6 +22,7 @@ body{
 }
 
 h1{
+  display: none;
   margin-bottom: 10px;
   width: 95%;
   line-height: 70px;
