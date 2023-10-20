@@ -161,6 +161,7 @@ ul li.checked::before{
   background-image: url(check-circle.svg);
   background-repeat: no-repeat;
   background-position: center;
+  fill: #1e5ddb;
 }
 
 ul li span{
