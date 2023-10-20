@@ -187,7 +187,7 @@ ul li span:hover{
   }
 
   .list-app{
-      min-height: 50vh;
+      min-height: 30vh;
   }
 
   .row button{
@@ -203,7 +203,7 @@ ul li span:hover{
   }
 
   input::placeholder{
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
 }
