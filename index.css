@@ -184,7 +184,7 @@ ul li span:hover{
 
 @media (max-width: 1000px){
   body{
-      overflow: hidden;
+      overflow-x: hidden;
   }
 
   h1{
