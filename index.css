@@ -38,7 +38,6 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-botton: 40px;
 }
 
 .list-app{
@@ -53,6 +52,7 @@ h1{
   display: flex;
   width: 95%;
   background-color: white;
+  margin-botton: 40px;
 }
 
 span svg{
