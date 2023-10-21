@@ -37,4 +37,8 @@ function showTask(){
 
 showTask();
 
-let Enter = document.querySelector("#Enter")
+let btn = document.querySelector("button")
+
+document.body.addEventListener('keypress', function (e) {
+  if(e.key == 'Enter') btn.click();
+})
