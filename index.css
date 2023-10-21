@@ -15,19 +15,22 @@ body{
 }
 
 .center{
+  position: relative;
   align-items: center;
   flex-direction: column;
   display: flex;
   width: 100%;
 }
 
-h1{
+p{
   display: none;
-  margin-bottom: 10px;
+  bottom: 0;
+  line-height: 10rem;
+  z-index: 1;
+  position: absolute;
   width: 95%;
-  line-height: 70px;
-  font-size: 5rem;
-  height: 10rem;
+  font-size: 50px;
+  margin-left: 100px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -188,10 +191,6 @@ ul li span:hover{
 @media (max-width: 1000px){
   body{
       overflow-x: hidden;
-  }
-
-  h1{
-    display: none;
   }
 
   .list-app{
